@@ -1,66 +1,87 @@
-# FerS00
+<div align="center">
 
-Systems Engineering / Software Development
+# Fernando Morales Peña
 
-I build business applications end to end — Angular and Spring Boot web systems, Python
-services with LLM tool calling, and native Windows tools in C++ and C# — with a focus on
-security, licensing and keeping legacy systems working while they are modernized.
+**Systems Engineering · Software Development**
 
-## Selected projects
+Web applications · AI-assisted workflows · Windows tooling · Software licensing
+
+</div>
+
+I build software for problems where the application has to deal with real constraints: existing business processes, legacy Windows software, offline environments, external APIs and data that cannot simply be handed over to an LLM.
+
+My recent work ranges from Angular/Spring Boot business systems to Python services with tool-calling agents and native C++/C# utilities for Windows.
+
+### Main stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,react,angular,spring,java,cs,cpp,dotnet,mysql,docker,git" />
+</p>
+
+## Selected work
 
 ### [OPERATIX](https://github.com/FerS00/OPERATIX)
 
-Conversational agent that turns sales requests written in natural language into validated
-transactions. The LLM only proposes tool arguments; the domain validates them and writes to
-Excel, Google Sheets or MySQL, with idempotency keys, per-currency reports, a React
-dashboard and a Telegram channel with explicit confirmation.
+Sales assistant that converts natural-language requests into actual transactions.
 
-Python · FastAPI · LangChain / LangGraph · OpenAI, Anthropic, Gemini · SQLAlchemy · MySQL · React · Docker
+The model does not write directly to business data. It proposes tool calls, while the application validates the operation, handles idempotency and decides what is written to Excel, Google Sheets or MySQL. It also includes per-currency reporting, a React dashboard and Telegram confirmations for operations that require user approval.
+
+`Python` `FastAPI` `LangGraph` `SQLAlchemy` `MySQL` `React` `Docker`
 
 **Public source**
+
+---
 
 ### [WLQuickGen](https://github.com/FerS00/WLQuickGen)
 
-Portable Win32 license generator for products protected with WinLicense. Auto-detects the
-generator SDK and its architecture, writes licenses atomically, supports English, Spanish
-and Portuguese, and exposes stable control IDs for UI automation with pywinauto.
+Portable Win32 utility for generating licenses for software protected with WinLicense.
 
-C++17 · Win32 API · CMake · GitHub Actions
+It detects the available generator SDK and architecture automatically, writes license files atomically and exposes stable control IDs so the interface can also be automated with tools such as pywinauto. The application is available in English, Spanish and Portuguese.
+
+`C++17` `Win32 API` `CMake` `GitHub Actions`
 
 **Public source**
 
+---
+
 ### [LICENSE-SERVICE](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
 
-Offline, device-bound licensing for .NET Windows applications: a packager wraps an
-existing executable, the customer sends a hardware request code, and an issuer returns a
-signed response. Licenses are signed with ECDSA P-256 and payloads use authenticated
-encryption; issuing secrets never leave the issuer workstation.
+Offline licensing system for .NET desktop applications.
 
-C# · .NET 10 · Windows Forms · ECDSA P-256 · AES-GCM · Docker
+A packager prepares an existing executable, the customer generates a hardware-bound request code, and a separate issuer workstation returns the activation response. Licenses use ECDSA P-256 signatures and authenticated encryption; signing material remains on the issuer machine.
 
-**Private source — case study available**
+`C#` `.NET 10` `Windows Forms` `ECDSA P-256` `AES-GCM` `Docker`
+
+**Private source · [Case study](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)**
+
+---
 
 ### [VENTAS_DPP](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
 
-Storefront and back office for a software reseller, replacing a hosted store: catalog,
-bundles, offers with price snapshots, customer accounts with one-time codes, permission-based
-back office, notification outbox, spreadsheet catalog sync, XLSX/PDF exports and a guided
-assistant with an optional LLM mode.
+Web storefront and back office built to replace a hosted store for a software reseller.
 
-Angular 20 · Spring Boot 3.4 · Java 17 · Spring Security · Flyway · MariaDB/MySQL · Docker
+The system covers catalog management, bundles, offers with price snapshots, customer accounts with one-time codes, permission-based administration, notifications, spreadsheet synchronization and XLSX/PDF exports. It also includes a guided assistant with an optional LLM-backed mode.
 
-**Private source — case study available**
+`Angular 20` `Spring Boot 3.4` `Java 17` `Spring Security` `Flyway` `MariaDB / MySQL` `Docker`
+
+**Private source · [Case study](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)**
+
+---
 
 ### [Hwid-Keygen-Core](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
 
-Offline activation layer bound to a hardware ID for executables protected with WinLicense
-when only the compiled `.exe` is available: a plugin runs before the application and checks
-an ECDSA P-256 signed response produced on a separate issuer machine.
+Offline activation layer for an unusual constraint: the original application source code is unavailable and only the WinLicense-protected executable can be modified around.
 
-C++17 · Win32 · Windows CNG · CMake
+A native plugin runs before the application, derives the hardware identity and verifies an ECDSA P-256 signed activation response generated on a separate issuer machine.
 
-**Private source — case study available**
+`C++17` `Win32` `Windows CNG` `CMake`
 
-## More
+**Private source · [Case study](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)**
 
-- Case studies of all private-source projects: [FerS00/portfolio](https://github.com/FerS00/portfolio)
+## Private projects
+
+Some repositories cannot be published because they contain proprietary code, customer-specific integrations or implementation details that should remain private.
+
+For those projects I publish technical case studies covering the problem, architecture, design decisions, security model and technologies without exposing the original source.
+
+**[Browse the case studies →](https://github.com/FerS00/portfolio)**
