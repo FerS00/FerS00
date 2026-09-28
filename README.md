@@ -1,6 +1,6 @@
 <div align="center">
 
-# Fernando Morales Peña
+# Fernando Morales (FerS00)
 
 **Systems Engineering · Software Development**
 
