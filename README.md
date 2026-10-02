@@ -20,6 +20,18 @@ My recent work ranges from Angular/Spring Boot business systems to Python servic
 
 ## Selected work
 
+### [Overseer](https://github.com/FerS00/Overseer)
+
+Local, read-only, real-time activity monitor for Claude Code and Codex, with an animated pixel mascot for each agent.
+
+Agent hooks and Codex session rollouts feed a single event stream that is redacted before storage, deduplicated and replayed to the dashboard over Server-Sent Events after reconnects. File readers persist byte offsets so they resume after restarts, and the server binds to loopback with a token-protected ingest endpoint by default. Overseer only observes: it never sends commands to either agent.
+
+`Java 21` `Spring Boot 3.5` `Angular 22` `Node.js 24` `H2` `Flyway` `SSE` `Docker` `Playwright`
+
+**Public source · MIT**
+
+---
+
 ### [OPERATIX](https://github.com/FerS00/OPERATIX)
 
 Sales assistant that converts natural-language requests into actual transactions.
