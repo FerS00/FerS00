@@ -4,7 +4,7 @@
 
 **Systems Engineering · Software Developer**
 
-Backend & Web Development · AI-assisted systems · Windows tooling · Software licensing
+Backend & Web Development · Automation · Windows tooling · Software licensing
 
 [LinkedIn](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391) ·
 [Email](mailto:moralespenafernando@gmail.com) ·
@@ -16,11 +16,13 @@ Backend & Web Development · AI-assisted systems · Windows tooling · Software 
 
 I'm a Systems Engineering student and software developer focused on building applications that have to operate under real technical and business constraints.
 
-My work includes web applications with **Angular and Spring Boot**, Python services that integrate **LLMs through controlled tool calling**, and native Windows utilities written in **C++ and C#**.
+My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
 
-I am particularly interested in systems where reliability and architecture matter more than simply connecting an application to an API: business workflows, automation, software licensing, offline environments, legacy Windows applications and AI agents that must interact with existing software safely.
+I am particularly interested in systems involving business workflows, automation, software licensing, offline environments, legacy Windows applications and integrations with existing software.
 
-I use AI tools extensively during development, but I keep validation, permissions, business rules and sensitive operations inside the application rather than delegating them blindly to the model.
+I use AI as a **development tool**, not as a substitute for software engineering. I use it to accelerate tasks such as code exploration, implementation assistance, testing and review, while architecture, business rules, validation, security decisions and final verification remain explicit parts of my development process.
+
+When a project integrates an LLM, I also avoid giving the model unrestricted control over application state. Models can interpret requests or propose operations, while deterministic application code validates permissions, arguments and business rules before any sensitive action is executed.
 
 Currently interested in opportunities related to **software development, backend engineering, automation and applied AI**.
 
@@ -34,7 +36,7 @@ Currently interested in opportunities related to **software development, backend
 **Frontend:** Angular · React  
 **Data:** MySQL · MariaDB · SQLAlchemy · Flyway  
 **Native Windows:** C++ · Win32 API · Windows CNG · Windows Forms  
-**AI:** LLM tool calling · LangGraph · agent workflows · human approval flows  
+**AI & Automation:** LLM tool calling · LangGraph · agent workflows · human approval flows  
 **Infrastructure:** Docker · GitHub Actions · REST APIs · SSE
 
 ## Selected work
@@ -55,9 +57,9 @@ Overseer only observes agent activity; it never sends commands to either agent.
 
 ### [OPERATIX](https://github.com/FerS00/OPERATIX)
 
-Sales assistant that converts natural-language requests into actual transactions.
+Sales assistant that converts natural-language requests into validated business operations.
 
-The model proposes tool calls instead of writing directly to business data. The application validates each operation, handles idempotency and controls what can be written to Excel, Google Sheets or MySQL.
+The LLM interprets the request and proposes tool calls, but it does not write directly to business data. The application validates arguments, permissions and business rules, handles idempotency and controls what can be written to Excel, Google Sheets or MySQL.
 
 It also includes per-currency reporting, a React dashboard and Telegram confirmations for operations that require explicit user approval.
 
@@ -101,7 +103,7 @@ Web storefront and back office built to replace a hosted store for a software re
 
 The system covers catalog management, bundles, offers with price snapshots, customer accounts with one-time codes, permission-based administration, notifications, spreadsheet synchronization and XLSX/PDF exports.
 
-It also includes a guided assistant with an optional LLM-backed mode.
+It also includes a guided assistant with an optional LLM-backed mode, while the application's business logic remains independent from the model.
 
 `Angular 20` `Spring Boot 3.4` `Java 17` `Spring Security` `Flyway` `MariaDB / MySQL` `Docker`
 
