@@ -41,18 +41,6 @@ Currently interested in opportunities related to **software development, backend
 
 ## Selected work
 
-### [RelayForge](https://github.com/FerS00/RelayForge)
-
-Self-hosted work console for coordinating coding agents (Claude Code, Codex, and Antigravity) on Windows.
-
-Claude Code handles planning, Codex implements changes within isolated Git worktrees, declared checks verify test/lint suites, and Antigravity executes read-only audits. The operator retains full control with human-approved delivery actions (commit/push). Includes resilient process supervision via Windows Job Objects, real-time SSE streaming, and secure remote access through Tailscale Serve with pairing codes.
-
-`Python 3.13+` `FastAPI` `React` `TypeScript` `SQLite` `Tailscale` `Windows Job Objects`
-
-**Public source · Apache-2.0**
-
----
-
 ### [Overseer](https://github.com/FerS00/Overseer)
 
 Local, read-only, real-time activity monitor for Claude Code and Codex, with an animated pixel mascot for each agent.
@@ -78,6 +66,18 @@ It also includes per-currency reporting, a React dashboard and Telegram confirma
 `Python` `FastAPI` `LangGraph` `SQLAlchemy` `MySQL` `React` `Docker`
 
 **Public source**
+
+---
+
+### [RelayForge](https://github.com/FerS00/RelayForge)
+
+Self-hosted work console for coordinating coding agents (Claude Code, Codex, and Antigravity) on Windows.
+
+Claude Code handles planning, Codex implements changes within isolated Git worktrees, declared checks verify test/lint suites, and Antigravity executes read-only audits. The operator retains full control with human-approved delivery actions (commit/push). Includes resilient process supervision via Windows Job Objects, real-time SSE streaming, and secure remote access through Tailscale Serve with pairing codes.
+
+`Python 3.13+` `FastAPI` `React` `TypeScript` `SQLite` `Tailscale` `Windows Job Objects`
+
+**Public source · Apache-2.0**
 
 ---
 
