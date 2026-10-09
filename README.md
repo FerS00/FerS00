@@ -1,10 +1,14 @@
 <div align="center">
 
-# Fernando Morales (FerS00)
+# Fernando Morales
 
-**Systems Engineering · Software Developer**
+**Systems Engineering student · Software Developer**
 
 Backend & Web Development · Automation · Windows tooling · Software licensing
+
+**[fextracode.com](https://fextracode.com)** · Spanish & English website
+
+[Website](https://fextracode.com) · [Case studies](https://github.com/FerS00/portfolio) · [Projects](#selected-work) · [Contact](#contact)
 
 [LinkedIn](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391) ·
 [Email](mailto:moralespenafernando@gmail.com) ·
@@ -14,15 +18,11 @@ Backend & Web Development · Automation · Windows tooling · Software licensing
 
 ## About me
 
-I'm a Systems Engineering student and software developer focused on building applications that have to operate under real technical and business constraints.
+I'm a Systems Engineering student and software developer building applications that have to operate under real technical and business constraints. My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
 
-My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
+I am particularly interested in business workflows, automation, software licensing, offline environments, legacy Windows applications and integrations with existing software.
 
-I am particularly interested in systems involving business workflows, automation, software licensing, offline environments, legacy Windows applications and integrations with existing software.
-
-I use AI as a **development tool**, not as a substitute for software engineering. I use it to accelerate tasks such as code exploration, implementation assistance, testing and review, while architecture, business rules, validation, security decisions and final verification remain explicit parts of my development process.
-
-When a project integrates an LLM, I also avoid giving the model unrestricted control over application state. Models can interpret requests or propose operations, while deterministic application code validates permissions, arguments and business rules before any sensitive action is executed.
+I use AI as a **development tool**, not as a substitute for software engineering: architecture, business rules, validation, security decisions and final verification remain explicit parts of my process. When a project integrates an LLM, the model may interpret requests or propose operations, but deterministic application code validates permissions, arguments and business rules before any sensitive action is executed.
 
 Currently interested in opportunities related to **software development, backend engineering, automation and applied AI**.
 
@@ -135,17 +135,17 @@ A native plugin executes before the application, derives the hardware identity a
 
 ## Private projects
 
-Some of my work cannot be published because it contains proprietary code, customer-specific integrations or implementation details that should remain private.
-
-For these projects, I publish technical case studies explaining the problem, architecture, design decisions, security model and technologies without exposing the original source code.
+Some of my work cannot be published because it contains proprietary code, customer-specific integrations or implementation details that should remain private. For these projects I publish technical case studies explaining the problem, architecture, design decisions, security model and technologies without exposing the original source code.
 
 **[Browse the case studies →](https://github.com/FerS00/portfolio)**
 
 ## Contact
 
-I'm open to discussing software development opportunities, freelance projects and technical collaborations.
+I'm open to software development opportunities, freelance projects and technical collaborations.
 
-- **LinkedIn:** [Fernando Morales Peña](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
+- **Website:** [fextracode.com](https://fextracode.com)
+- **Case studies:** [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
+- **LinkedIn:** [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
 - **Email:** [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)
 - **Telegram:** [@FerS_00](https://t.me/FerS_00)
 - **GitHub:** [@FerS00](https://github.com/FerS00)
