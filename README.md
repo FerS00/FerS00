@@ -1,47 +1,50 @@
 <div align="center">
 
+<img src="assets/profile-banner.svg" width="100%" alt="Banner for Fernando Morales, Backend and Full-Stack Developer based in Peru, open to remote roles and selected freelance work. A terminal panel lists role, location, Systems Engineering study and open-to status." />
+
 # Fernando Morales
 
 **Backend & Full-Stack Developer · Based in Peru**
 
-Interested in remote roles and selected freelance work · Backend & Web Development · Automation · Windows tooling · Software licensing
+Remote roles and selected freelance work · Backend services · Web applications · Automation · Windows tooling · Software licensing
 
 **[fextracode.com](https://fextracode.com)** · Spanish & English website
 
-[Website](https://fextracode.com) · [Case studies](https://github.com/FerS00/portfolio) · [Selected work](#selected-work) · [Contact](#contact)
+[Website](https://fextracode.com) · [Case studies](https://github.com/FerS00/portfolio) · [About](#about-me) · [Stack](#stack) · [Selected work](#selected-work) · [Contact](#contact)
 
 [LinkedIn](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391) ·
 [Email](mailto:moralespenafernando@gmail.com) ·
-[Telegram](https://t.me/FerS_00)
+[Telegram](https://t.me/FerS_00) ·
+[GitHub](https://github.com/FerS00)
 
 </div>
 
+---
+
 ## About me
 
-I'm a Systems Engineering student and software developer building applications that have to operate under real technical and business constraints. My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
+I'm a **Systems Engineering student** and software developer building applications that have to operate under real technical and business constraints. My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
 
-I am particularly interested in business workflows, automation, software licensing, offline environments, legacy Windows applications and integrations with existing software.
+I'm particularly interested in business workflows, automation, software licensing, offline environments, legacy Windows applications and integrations with existing software.
 
 I use AI as a **development tool**, not as a substitute for software engineering: architecture, business rules, validation, security decisions and final verification remain explicit parts of my process. When a project integrates an LLM, the model may interpret requests or propose operations, but deterministic application code validates permissions, arguments and business rules before any sensitive action is executed.
 
+> **The model proposes. The code decides.**
+
 I'm open to **remote roles** and **selected freelance projects** in backend engineering, full-stack web development, automation and applied AI.
 
-## What I work with
+## Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,react,angular,spring,java,cs,cpp,dotnet,mysql,docker,git" />
-</p>
-
-**Backend:** Java · Spring Boot · Python · FastAPI · C# · .NET  
-**Frontend:** Angular · React  
-**Data:** MySQL · MariaDB · SQLAlchemy · Flyway  
-**Native Windows:** C++ · Win32 API · Windows CNG · Windows Forms  
-**AI & Automation:** LLM tool calling · LangGraph · agent workflows · human approval flows  
-**Infrastructure:** Docker · GitHub Actions · REST APIs · SSE
+- **Backend:** Java · Spring Boot · Python · FastAPI · C# · .NET
+- **Frontend:** Angular · React
+- **Data:** MySQL · MariaDB · SQLAlchemy · Flyway
+- **Native Windows:** C++ · Win32 API · Windows CNG · Windows Forms
+- **AI & Automation:** LLM tool calling · LangGraph · agent workflows · human approval flows
+- **Infrastructure:** Docker · GitHub Actions · REST APIs · SSE
 
 ## Selected work
 
-Start with these three projects:
+Start with these three projects.
 
 ### [Overseer](https://github.com/FerS00/Overseer) · Testing / preview
 
@@ -145,7 +148,7 @@ Some of my work cannot be published because it contains proprietary code, custom
 
 I'm open to remote software development roles, selected freelance projects and technical collaborations.
 
-- **Website:** [fextracode.com](https://fextracode.com)
+- **Website:** [fextracode.com](https://fextracode.com) · Spanish & English
 - **Case studies:** [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
 - **LinkedIn:** [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
 - **Email:** [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)

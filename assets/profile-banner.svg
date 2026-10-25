@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Fernando Morales, Backend and Full-Stack Developer</title>
+  <desc id="banner-desc">Dark banner with a subtle grid and circuit lines. Text reads Fernando Morales, Backend &amp; Full-Stack Developer, based in Peru, open to remote roles and selected freelance work. A terminal panel lists role, location, Systems Engineering study and open-to status. Tagline: The model proposes. The code decides.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#12201A" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3DF58C" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#3DF58C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background and grid -->
+  <rect width="1200" height="360" fill="#050806"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="960" cy="180" r="380" fill="url(#glow)"/>
+
+  <!-- Circuit traces -->
+  <g fill="none" stroke="#3DF58C" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M60 22H1140"/>
+    <path d="M380 22V34"/>
+    <path d="M820 22V34"/>
+    <path d="M60 332H1140"/>
+    <path d="M300 332V344"/>
+    <path d="M560 332V344"/>
+    <path d="M1160 60V300" stroke="#A78BFF" stroke-opacity="0.45"/>
+    <path d="M1140 120H1160"/>
+  </g>
+  <g fill="#050806" stroke="#3DF58C" stroke-width="2">
+    <circle cx="60" cy="22" r="4"/>
+    <circle cx="380" cy="22" r="4"/>
+    <circle cx="820" cy="22" r="4"/>
+    <circle cx="1140" cy="22" r="4"/>
+    <circle cx="60" cy="332" r="4"/>
+    <circle cx="1140" cy="332" r="4"/>
+    <circle cx="300" cy="344" r="3"/>
+    <circle cx="560" cy="344" r="3"/>
+    <circle cx="1160" cy="60" r="4" stroke="#A78BFF"/>
+    <circle cx="1160" cy="300" r="4" stroke="#A78BFF"/>
+  </g>
+
+  <!-- Circuit mark -->
+  <g transform="translate(60 40)" fill="none" stroke="#3DF58C" stroke-width="2">
+    <rect x="0" y="0" width="32" height="32" rx="6" stroke-opacity="0.7"/>
+    <path d="M8 12H16V20H24"/>
+    <circle cx="8" cy="12" r="2.5" fill="#3DF58C" stroke="none"/>
+    <circle cx="24" cy="20" r="2.5" fill="#4FE3FF" stroke="none"/>
+  </g>
+
+  <!-- Identity -->
+  <text x="60" y="150" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#EAF5EE">Fernando Morales</text>
+  <text x="60" y="198" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="#3DF58C">Backend &amp; Full-Stack Developer</text>
+  <text x="60" y="236" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#9DB3A6">Based in Peru · remote roles and selected freelance work</text>
+  <text x="60" y="284" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#4FE3FF">The model proposes. The code decides.</text>
+
+  <!-- Terminal panel -->
+  <rect x="700" y="50" width="440" height="260" rx="12" fill="#0C1410" stroke="#12201A" stroke-width="2"/>
+  <line x1="700" y1="84" x2="1140" y2="84" stroke="#12201A" stroke-width="2"/>
+  <circle cx="724" cy="67" r="5" fill="#A78BFF"/>
+  <circle cx="742" cy="67" r="5" fill="#4FE3FF"/>
+  <circle cx="760" cy="67" r="5" fill="#3DF58C"/>
+  <text x="780" y="72" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#9DB3A6">fextracode · profile</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="16">
+    <text x="724" y="118" fill="#3DF58C">$ profile --summary</text>
+    <text x="724" y="150" fill="#9DB3A6">role      <tspan fill="#EAF5EE">Backend &amp; Full-Stack</tspan></text>
+    <text x="724" y="176" fill="#9DB3A6">location  <tspan fill="#EAF5EE">Peru</tspan></text>
+    <text x="724" y="202" fill="#9DB3A6">study     <tspan fill="#EAF5EE">Systems Engineering</tspan></text>
+    <text x="724" y="228" fill="#9DB3A6">open to   <tspan fill="#EAF5EE">remote roles, freelance</tspan></text>
+    <text x="724" y="268" fill="#3DF58C">$</text>
+    <rect x="740" y="252" width="10" height="18" fill="#3DF58C"/>
+  </g>
+</svg>
