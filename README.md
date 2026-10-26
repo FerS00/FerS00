@@ -8,9 +8,11 @@
 
 Remote roles and selected freelance work
 
-[**EN**](README.md) · [ES](README.es.md)
+![Open to remote roles](https://img.shields.io/badge/Open-Remote%20roles-0E7490?style=flat-square&labelColor=0C1410)
 
-[About](#01-about) · [Stack](#02-stack) · [Work](#03-selected-work) · [Contact](#05-contact)
+[![English, current language](https://img.shields.io/badge/EN-English%20%C2%B7%20current-15803D?style=flat-square&labelColor=0C1410)](README.md) [![Switch to Spanish](https://img.shields.io/badge/ES-Espa%C3%B1ol-334155?style=flat-square&labelColor=0C1410)](README.es.md)
+
+[![About](https://img.shields.io/badge/-About-6D28D9?style=flat-square&labelColor=0C1410)](#about) [![Stack](https://img.shields.io/badge/-Stack-0E7490?style=flat-square&labelColor=0C1410)](#stack) [![Work](https://img.shields.io/badge/-Work-15803D?style=flat-square&labelColor=0C1410)](#selected-work) [![Contact](https://img.shields.io/badge/-Contact-6D28D9?style=flat-square&labelColor=0C1410)](#contact)
 
 </div>
 
@@ -24,7 +26,7 @@ focus    backend · business apps · automation · Windows tools
 
 ---
 
-## `01` About
+## About
 
 I'm a **Systems Engineering student** and software developer building applications that have to operate under real technical and business constraints. My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
 
@@ -38,24 +40,26 @@ I'm open to **remote roles** and **selected freelance projects** in backend engi
 
 ---
 
-## `02` Stack
+## Stack
 
-- `backend` Java · Spring Boot · Python · FastAPI · C# · .NET
-- `frontend` Angular · React
-- `data` MySQL · MariaDB · SQLAlchemy · Flyway
-- `native windows` C++ · Win32 API · Windows CNG · Windows Forms
-- `ai & automation` LLM tool calling · LangGraph · agent workflows · human approval flows
-- `infrastructure` Docker · GitHub Actions · REST APIs · SSE
+Grouped by where I use each technology.
+
+- **Backend** — `Java` `Spring Boot` `Python` `FastAPI` `C#` `.NET`
+- **Frontend** — `Angular` `React`
+- **Data** — `MySQL` `MariaDB` `SQLAlchemy` `Flyway`
+- **Native Windows** — `C++` `Win32 API` `Windows CNG` `Windows Forms`
+- **AI & automation** — `LLM tool calling` `LangGraph` `agent workflows` `human approval flows`
+- **Infrastructure** — `Docker` `GitHub Actions` `REST APIs` `SSE`
 
 ---
 
-## `03` Selected work
+## Selected work
 
 Start with these three projects.
 
 ### [Overseer](https://github.com/FerS00/Overseer)
 
-`Testing / preview` · `Public source · MIT`
+![Testing / preview](https://img.shields.io/badge/Status-Testing%20%2F%20preview-6D28D9?style=flat-square&labelColor=0C1410) `Public source · MIT`
 
 Local, read-only, real-time activity monitor for Claude Code and Codex, with an animated pixel mascot for each agent.
 
@@ -69,7 +73,7 @@ Overseer only observes agent activity; it never sends commands to either agent.
 
 ### [OPERATIX](https://github.com/FerS00/OPERATIX)
 
-`MVP` · `Public source`
+![MVP](https://img.shields.io/badge/Status-MVP-0E7490?style=flat-square&labelColor=0C1410) `Public source`
 
 Sales assistant that converts natural-language requests into validated business operations.
 
@@ -83,7 +87,7 @@ It also includes per-currency reporting, a React dashboard and Telegram confirma
 
 ### [VENTAS_DPP case study](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
 
-`Private source` · `Not in production`
+![Private source](https://img.shields.io/badge/Status-Private%20source-334155?style=flat-square&labelColor=0C1410) `Not in production`
 
 Web storefront and back office built to replace a hosted store for a software reseller.
 
@@ -93,15 +97,15 @@ It also includes a guided assistant with an optional LLM-backed mode, while the 
 
 `Angular 20` `Spring Boot 3.4` `Java 17` `Spring Security` `Flyway` `MariaDB / MySQL` `Docker`
 
-[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
+[![Read case study](https://img.shields.io/badge/Read-case%20study-C2410C?style=flat-square&labelColor=0C1410)](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
 
 ---
 
-## `04` Additional work
+## Additional work
 
 ### [RelayForge](https://github.com/FerS00/RelayForge)
 
-`Paused / early development` · `Public source · Apache-2.0`
+![Paused / early development](https://img.shields.io/badge/Status-Paused%20%2F%20early%20development-334155?style=flat-square&labelColor=0C1410) `Public source · Apache-2.0`
 
 Self-hosted work console for coordinating coding agents (Claude Code, Codex, and Antigravity) on Windows.
 
@@ -113,7 +117,7 @@ Claude Code handles planning, Codex implements changes within isolated Git workt
 
 ### [WLQuickGen](https://github.com/FerS00/WLQuickGen)
 
-`Source-available · PolyForm Noncommercial`
+![Source-available](https://img.shields.io/badge/Status-Source--available-0E7490?style=flat-square&labelColor=0C1410) `PolyForm Noncommercial`
 
 Portable Win32 utility for generating licenses for software protected with WinLicense.
 
@@ -127,7 +131,7 @@ The application is available in English, Spanish and Portuguese.
 
 ### [LICENSE-SERVICE](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
 
-`Private source`
+![Private source](https://img.shields.io/badge/Status-Private%20source-334155?style=flat-square&labelColor=0C1410)
 
 Offline licensing system for .NET desktop applications.
 
@@ -137,13 +141,13 @@ Licenses use ECDSA P-256 signatures and authenticated encryption, while signing 
 
 `C#` `.NET 10` `Windows Forms` `ECDSA P-256` `AES-GCM` `Docker`
 
-[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
+[![Read case study](https://img.shields.io/badge/Read-case%20study-C2410C?style=flat-square&labelColor=0C1410)](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
 
 ---
 
 ### [Hwid-Keygen-Core](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
 
-`Private source`
+![Private source](https://img.shields.io/badge/Status-Private%20source-334155?style=flat-square&labelColor=0C1410)
 
 Offline activation layer built around an unusual constraint: the original application source code is unavailable and only the WinLicense-protected executable can be extended.
 
@@ -151,28 +155,29 @@ A native plugin executes before the application, derives the hardware identity a
 
 `C++17` `Win32` `Windows CNG` `CMake`
 
-[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
+[![Read case study](https://img.shields.io/badge/Read-case%20study-C2410C?style=flat-square&labelColor=0C1410)](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
 
 ---
 
 ### Private projects
 
-Some of my work cannot be published because it contains proprietary code, customer-specific integrations or implementation details that should remain private. For these projects I publish technical case studies explaining the problem, architecture, design decisions, security model and technologies without exposing the original source code.
-
-**[Browse the case studies →](https://github.com/FerS00/portfolio)**
+> [!NOTE]
+> Some of my work cannot be published because it contains proprietary code, customer-specific integrations or implementation details that should remain private. For these projects I publish technical case studies explaining the problem, architecture, design decisions, security model and technologies without exposing the original source code.
+>
+> **[Browse the case studies →](https://github.com/FerS00/portfolio)**
 
 ---
 
-## `05` Contact
+## Contact
 
 I'm open to remote software development roles, selected freelance projects and technical collaborations.
 
-- `website` [fextracode.com](https://fextracode.com) · Spanish & English
-- `portfolio` [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
-- `linkedin` [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
-- `email` [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)
-- `telegram` [@FerS_00](https://t.me/FerS_00)
-- `github` [@FerS00](https://github.com/FerS00)
+- **Website** — [fextracode.com](https://fextracode.com) · Spanish & English
+- **Portfolio** — [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
+- **LinkedIn** — [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
+- **Email** — [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)
+- **Telegram** — [@FerS_00](https://t.me/FerS_00)
+- **GitHub** — [@FerS00](https://github.com/FerS00)
 
 If you're interested in one of my private projects, I can discuss its architecture, my responsibilities and the technical decisions involved without exposing confidential source code.
 
@@ -180,6 +185,8 @@ If you're interested in one of my private projects, I can discuss its architectu
 
 <div align="center">
 
-[**EN**](README.md) · [ES](README.es.md) · [Top ↑](#fernando-morales)
+[![English, current language](https://img.shields.io/badge/EN-English%20%C2%B7%20current-15803D?style=flat-square&labelColor=0C1410)](README.md) [![Switch to Spanish](https://img.shields.io/badge/ES-Espa%C3%B1ol-334155?style=flat-square&labelColor=0C1410)](README.es.md)
+
+[Top ↑](#fernando-morales)
 
 </div>
