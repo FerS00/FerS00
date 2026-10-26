@@ -1,27 +1,30 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" width="100%" alt="Banner for Fernando Morales, Backend and Full-Stack Developer based in Peru, open to remote roles and selected freelance work. A terminal panel lists role, location, Systems Engineering study and open-to status." />
+`$ whoami`
 
 # Fernando Morales
 
-**Backend & Full-Stack Developer · Based in Peru**
+**Backend & Full-Stack Developer** · **Based in Peru**
 
-Remote roles and selected freelance work · Backend services · Web applications · Automation · Windows tooling · Software licensing
+Remote roles and selected freelance work
 
-**[fextracode.com](https://fextracode.com)** · Spanish & English website
+[**EN**](README.md) · [ES](README.es.md)
 
-[Website](https://fextracode.com) · [Case studies](https://github.com/FerS00/portfolio) · [About](#about-me) · [Stack](#stack) · [Selected work](#selected-work) · [Contact](#contact)
-
-[LinkedIn](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391) ·
-[Email](mailto:moralespenafernando@gmail.com) ·
-[Telegram](https://t.me/FerS_00) ·
-[GitHub](https://github.com/FerS00)
+[About](#01-about) · [Stack](#02-stack) · [Work](#03-selected-work) · [Contact](#05-contact)
 
 </div>
 
+```text
+role     Backend & Full-Stack Developer
+base     Peru
+open     remote roles · selected freelance
+study    Systems Engineering (student)
+focus    backend · business apps · automation · Windows tools
+```
+
 ---
 
-## About me
+## `01` About
 
 I'm a **Systems Engineering student** and software developer building applications that have to operate under real technical and business constraints. My work includes web applications with **Angular and Spring Boot**, backend services in **Java and Python**, and native Windows utilities written in **C++ and C#**.
 
@@ -33,20 +36,26 @@ I use AI as a **development tool**, not as a substitute for software engineering
 
 I'm open to **remote roles** and **selected freelance projects** in backend engineering, full-stack web development, automation and applied AI.
 
-## Stack
+---
 
-- **Backend:** Java · Spring Boot · Python · FastAPI · C# · .NET
-- **Frontend:** Angular · React
-- **Data:** MySQL · MariaDB · SQLAlchemy · Flyway
-- **Native Windows:** C++ · Win32 API · Windows CNG · Windows Forms
-- **AI & Automation:** LLM tool calling · LangGraph · agent workflows · human approval flows
-- **Infrastructure:** Docker · GitHub Actions · REST APIs · SSE
+## `02` Stack
 
-## Selected work
+- `backend` Java · Spring Boot · Python · FastAPI · C# · .NET
+- `frontend` Angular · React
+- `data` MySQL · MariaDB · SQLAlchemy · Flyway
+- `native windows` C++ · Win32 API · Windows CNG · Windows Forms
+- `ai & automation` LLM tool calling · LangGraph · agent workflows · human approval flows
+- `infrastructure` Docker · GitHub Actions · REST APIs · SSE
+
+---
+
+## `03` Selected work
 
 Start with these three projects.
 
-### [Overseer](https://github.com/FerS00/Overseer) · Testing / preview
+### [Overseer](https://github.com/FerS00/Overseer)
+
+`Testing / preview` · `Public source · MIT`
 
 Local, read-only, real-time activity monitor for Claude Code and Codex, with an animated pixel mascot for each agent.
 
@@ -56,11 +65,11 @@ Overseer only observes agent activity; it never sends commands to either agent.
 
 `Java 21` `Spring Boot 3.5` `Angular 22` `Node.js 24` `H2` `Flyway` `SSE` `Docker` `Playwright`
 
-**Public source · MIT**
-
 ---
 
-### [OPERATIX](https://github.com/FerS00/OPERATIX) · MVP
+### [OPERATIX](https://github.com/FerS00/OPERATIX)
+
+`MVP` · `Public source`
 
 Sales assistant that converts natural-language requests into validated business operations.
 
@@ -70,11 +79,11 @@ It also includes per-currency reporting, a React dashboard and Telegram confirma
 
 `Python` `FastAPI` `LangGraph` `SQLAlchemy` `MySQL` `React` `Docker`
 
-**Public source**
-
 ---
 
-### [VENTAS_DPP case study](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md) · Private source · not in production
+### [VENTAS_DPP case study](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
+
+`Private source` · `Not in production`
 
 Web storefront and back office built to replace a hosted store for a software reseller.
 
@@ -84,11 +93,15 @@ It also includes a guided assistant with an optional LLM-backed mode, while the 
 
 `Angular 20` `Spring Boot 3.4` `Java 17` `Spring Security` `Flyway` `MariaDB / MySQL` `Docker`
 
-**Private source · [Read case study](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)**
+[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/ventas-dpp/README.md)
 
-## Additional work
+---
 
-### [RelayForge](https://github.com/FerS00/RelayForge) · Paused / early development
+## `04` Additional work
+
+### [RelayForge](https://github.com/FerS00/RelayForge)
+
+`Paused / early development` · `Public source · Apache-2.0`
 
 Self-hosted work console for coordinating coding agents (Claude Code, Codex, and Antigravity) on Windows.
 
@@ -96,11 +109,11 @@ Claude Code handles planning, Codex implements changes within isolated Git workt
 
 `Python 3.13+` `FastAPI` `React` `TypeScript` `SQLite` `Tailscale` `Windows Job Objects`
 
-**Public source · Apache-2.0**
-
 ---
 
 ### [WLQuickGen](https://github.com/FerS00/WLQuickGen)
+
+`Source-available · PolyForm Noncommercial`
 
 Portable Win32 utility for generating licenses for software protected with WinLicense.
 
@@ -110,11 +123,11 @@ The application is available in English, Spanish and Portuguese.
 
 `C++17` `Win32 API` `CMake` `GitHub Actions`
 
-**Source-available · PolyForm Noncommercial**
-
 ---
 
 ### [LICENSE-SERVICE](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
+
+`Private source`
 
 Offline licensing system for .NET desktop applications.
 
@@ -124,11 +137,13 @@ Licenses use ECDSA P-256 signatures and authenticated encryption, while signing 
 
 `C#` `.NET 10` `Windows Forms` `ECDSA P-256` `AES-GCM` `Docker`
 
-**Private source · [Read case study](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)**
+[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/license-service/README.md)
 
 ---
 
 ### [Hwid-Keygen-Core](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
+
+`Private source`
 
 Offline activation layer built around an unusual constraint: the original application source code is unavailable and only the WinLicense-protected executable can be extended.
 
@@ -136,23 +151,35 @@ A native plugin executes before the application, derives the hardware identity a
 
 `C++17` `Win32` `Windows CNG` `CMake`
 
-**Private source · [Read case study](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)**
+[Read case study →](https://github.com/FerS00/portfolio/blob/main/projects/hwid-keygen-core/README.md)
 
-## Private projects
+---
+
+### Private projects
 
 Some of my work cannot be published because it contains proprietary code, customer-specific integrations or implementation details that should remain private. For these projects I publish technical case studies explaining the problem, architecture, design decisions, security model and technologies without exposing the original source code.
 
 **[Browse the case studies →](https://github.com/FerS00/portfolio)**
 
-## Contact
+---
+
+## `05` Contact
 
 I'm open to remote software development roles, selected freelance projects and technical collaborations.
 
-- **Website:** [fextracode.com](https://fextracode.com) · Spanish & English
-- **Case studies:** [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
-- **LinkedIn:** [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
-- **Email:** [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)
-- **Telegram:** [@FerS_00](https://t.me/FerS_00)
-- **GitHub:** [@FerS00](https://github.com/FerS00)
+- `website` [fextracode.com](https://fextracode.com) · Spanish & English
+- `portfolio` [github.com/FerS00/portfolio](https://github.com/FerS00/portfolio)
+- `linkedin` [Fernando Morales](https://linkedin.com/in/fernando-trinidad-morales-pe%C3%B1a-3632b2391)
+- `email` [moralespenafernando@gmail.com](mailto:moralespenafernando@gmail.com)
+- `telegram` [@FerS_00](https://t.me/FerS_00)
+- `github` [@FerS00](https://github.com/FerS00)
 
 If you're interested in one of my private projects, I can discuss its architecture, my responsibilities and the technical decisions involved without exposing confidential source code.
+
+---
+
+<div align="center">
+
+[**EN**](README.md) · [ES](README.es.md) · [Top ↑](#fernando-morales)
+
+</div>
